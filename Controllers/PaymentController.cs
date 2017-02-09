@@ -20,7 +20,7 @@ namespace Conductor.Controllers
         {
             _context.Payments.Add(payment);
             _context.SaveChanges();
-            return Ok(new { message = "Deu tudo certo amigão!" });
+            return Ok(new { message = "Deu tudo certo my friend!" });
         }
 
         [HttpGet]
